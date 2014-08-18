@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inc:Incident xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:inc="http://uicds.org/incident" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uicds.org/IncidentManagementService services\IncidentManagement\0.1\IncidentManagementService.xsd">
+        <nc:ActivityCategoryText>Transportation</nc:ActivityCategoryText>
+        <nc:ActivityDescriptionText>Incident used in CreateIncident Test
+        </nc:ActivityDescriptionText>
+        <nc:ActivityName>Flood Incident</nc:ActivityName>
+        <nc:IncidentLocation>
+            <nc:LocationAddress>
+                <nc:AddressFullText>4001 North Fairfax Drive, Arlington, VA 22203
+                </nc:AddressFullText>
+            </nc:LocationAddress>
+            <nc:LocationArea>
+                <nc:AreaPolygonGeographicCoordinate>
+                    <nc:GeographicCoordinateLatitude>
+                        <nc:LatitudeDegreeValue>38</nc:LatitudeDegreeValue>
+                        <nc:LatitudeMinuteValue>47</nc:LatitudeMinuteValue>
+                        <nc:LatitudeSecondValue>0.0</nc:LatitudeSecondValue>
+                    </nc:GeographicCoordinateLatitude>
+                    <nc:GeographicCoordinateLongitude>
+                        <nc:LongitudeDegreeValue>-77</nc:LongitudeDegreeValue>
+                        <nc:LongitudeMinuteValue>17</nc:LongitudeMinuteValue>
+                        <nc:LongitudeSecondValue>10.0</nc:LongitudeSecondValue>
+                    </nc:GeographicCoordinateLongitude>
+                </nc:AreaPolygonGeographicCoordinate>
+                <nc:AreaPolygonGeographicCoordinate>
+                    <nc:GeographicCoordinateLatitude>
+                        <nc:LatitudeDegreeValue>38</nc:LatitudeDegreeValue>
+                        <nc:LatitudeMinuteValue>47</nc:LatitudeMinuteValue>
+                        <nc:LatitudeSecondValue>5.0</nc:LatitudeSecondValue>
+                    </nc:GeographicCoordinateLatitude>
+                    <nc:GeographicCoordinateLongitude>
+                        <nc:LongitudeDegreeValue>-77</nc:LongitudeDegreeValue>
+                        <nc:LongitudeMinuteValue>5</nc:LongitudeMinuteValue>
+                        <nc:LongitudeSecondValue>6.0</nc:LongitudeSecondValue>
+                    </nc:GeographicCoordinateLongitude>
+                </nc:AreaPolygonGeographicCoordinate>
+                <nc:AreaPolygonGeographicCoordinate>
+                    <nc:GeographicCoordinateLatitude>
+                        <nc:LatitudeDegreeValue>39</nc:LatitudeDegreeValue>
+                        <nc:LatitudeMinuteValue>0</nc:LatitudeMinuteValue>
+                        <nc:LatitudeSecondValue>0.005</nc:LatitudeSecondValue>
+                    </nc:GeographicCoordinateLatitude>
+                    <nc:GeographicCoordinateLongitude>
+                        <nc:LongitudeDegreeValue>-77</nc:LongitudeDegreeValue>
+                        <nc:LongitudeMinuteValue>5</nc:LongitudeMinuteValue>
+                        <nc:LongitudeSecondValue>6.00</nc:LongitudeSecondValue>
+                    </nc:GeographicCoordinateLongitude>
+                </nc:AreaPolygonGeographicCoordinate>
+                <nc:AreaPolygonGeographicCoordinate>
+                    <nc:GeographicCoordinateLatitude>
+                        <nc:LatitudeDegreeValue>39</nc:LatitudeDegreeValue>
+                        <nc:LatitudeMinuteValue>0</nc:LatitudeMinuteValue>
+                        <nc:LatitudeSecondValue>0.005</nc:LatitudeSecondValue>
+                    </nc:GeographicCoordinateLatitude>
+                    <nc:GeographicCoordinateLongitude>
+                        <nc:LongitudeDegreeValue>-77</nc:LongitudeDegreeValue>
+                        <nc:LongitudeMinuteValue>17</nc:LongitudeMinuteValue>
+                        <nc:LongitudeSecondValue>6.00</nc:LongitudeSecondValue>
+                    </nc:GeographicCoordinateLongitude>
+                </nc:AreaPolygonGeographicCoordinate>
+                <nc:AreaPolygonGeographicCoordinate>
+                    <nc:GeographicCoordinateLatitude>
+                        <nc:LatitudeDegreeValue>38</nc:LatitudeDegreeValue>
+                        <nc:LatitudeMinuteValue>47</nc:LatitudeMinuteValue>
+                        <nc:LatitudeSecondValue>0.00</nc:LatitudeSecondValue>
+                    </nc:GeographicCoordinateLatitude>
+                    <nc:GeographicCoordinateLongitude>
+                        <nc:LongitudeDegreeValue>-77</nc:LongitudeDegreeValue>
+                        <nc:LongitudeMinuteValue>17</nc:LongitudeMinuteValue>
+                        <nc:LongitudeSecondValue>10.00</nc:LongitudeSecondValue>
+                    </nc:GeographicCoordinateLongitude>
+                </nc:AreaPolygonGeographicCoordinate>
+                <nc:AreaCircularRegion>
+                    <nc:CircularRegionCenterCoordinate>
+                        <nc:GeographicCoordinateLatitude>
+                            <nc:LatitudeDegreeValue>38</nc:LatitudeDegreeValue>
+                            <nc:LatitudeMinuteValue>17</nc:LatitudeMinuteValue>
+                            <nc:LatitudeSecondValue>6.00</nc:LatitudeSecondValue>
+                        </nc:GeographicCoordinateLatitude>
+                        <nc:GeographicCoordinateLongitude>
+                            <nc:LongitudeDegreeValue>-77</nc:LongitudeDegreeValue>
+                            <nc:LongitudeMinuteValue>17</nc:LongitudeMinuteValue>
+                            <nc:LongitudeSecondValue>6.00</nc:LongitudeSecondValue>
+                        </nc:GeographicCoordinateLongitude>
+                    </nc:CircularRegionCenterCoordinate>
+                    <nc:CircularRegionRadiusLengthMeasure>
+                        <nc:LengthUnitCode>1.23</nc:LengthUnitCode>
+                    </nc:CircularRegionRadiusLengthMeasure>
+                </nc:AreaCircularRegion>
+            </nc:LocationArea>
+        </nc:IncidentLocation>
+        <nc:IncidentJurisdictionalOrganization xsi:nil="true"></nc:IncidentJurisdictionalOrganization>
+        <nc:IncidentObservationText xsi:nil="true"/>
+        <inc:SharedCoreName/>
+        <inc:OwningCore/>
+</inc:Incident>
