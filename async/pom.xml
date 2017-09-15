@@ -1,11 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
+<!--
     <parent>
         <groupId>com.saic.uicds.clients.em</groupId>
         <artifactId>com.saic.uicds.clients.em</artifactId>
         <version>1.0</version>
     </parent>
+-->
+    <version>1.0</version>
     <groupId>com.saic.uicds.clients.em</groupId>
     <artifactId>com.saic.uicds.clients.em.async</artifactId>
     <packaging>jar</packaging>
@@ -54,12 +57,14 @@
             <version>4.4</version>
             <scope>test</scope>
         </dependency>
+<!--
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
             <version>${spring.version}</version>
             <scope>test</scope>
         </dependency>
+-->
         <dependency>
             <groupId>com.saic.uicds.clients</groupId>
             <artifactId>com.saic.uicds.clients.util</artifactId>
